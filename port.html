@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfilo Website</title>
+    <!---CSS Link-->
+    <link rel="stylesheet" href="port.css">
+
+    <!----font Link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="https://static8.depositphotos.com/1020618/852/i/600/depositphotos_8526426-stock-photo-fire-alphabet-letter-k.jpg" alt="" class="logo">
+            <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfilo</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa fa-times" aria-hidden="true" onclick="closemenu()"></i>
+
+        </ul>
+        <i class="fa fa-bars" aria-hidden="true" onclick="openmenu()"></i>
+
+        </nav>
+        <div class="header-text">
+            <p>UI/UX Developer</p>
+            <h1>Hi , <span>I'm </span><br>Shubham Tiwari</h1>
+        </div>
+    </div>
+</div>
+
+
+<!----About section started-->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="https://i.pinimg.com/550x/71/c2/de/71c2de156c415f1be93c3ee5dc476a4f.jpg" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About US</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, eius nulla omnis repudiandae incidunt repellendus dolorum, modi doloremque provident sit dolorem aut est cum distinctio placeat quod ullam maxime ex ratione rerum quasi quas.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI?UX</span><br>Desiging Web/App interfaces</li>
+
+                        <li><span>Responsive Design</span><br>Making Responsive Design</li>
+
+                        <li><span>UI?UX</span><br>Making Web Design</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2021 - Current</span><br>Jaypee Institute of Engenering and Techology Guna.</li>
+
+                        <li><span>4Months</span><br>Intership of UI/UX Devlopment</li>
+
+                        <li><span>6Monts</span><br>Intership of UI/UX Devlopment</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2016</span><br>CMI Institute</li>
+
+                        <li><span>2016</span><br>SIR PADAMPAT SINGHANIA SCHOOL KOTA</li>
+
+                        <li><span>2016</span><br>ALLEN Institute</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!----About section started-->
+
+
+<!----Services section started-->
+<div id="services">
+<div class="container">
+<h1 class="sub-title">My Services</h1>
+<div class="services-list">
+    <div>
+        <i class="fa fa-code" aria-hidden="true"></i>
+        <h2>UI/UX Devlopment</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ducimus debitis, molestiae quibusdam porro magni fugit, dicta officia sequi temporibus, cupiditate tempore ut deserunt ullam voluptatibus vitae praesentium! Ducimus molestias rem, enim necessitatibus dicta vitae cupiditate aliquam harum saepe voluptate quo, vel error amet minima.</p>
+
+        <a href="#">learn more</a>
+    </div>
+
+    <div>
+
+        <i class="fa fa-crop" aria-hidden="true"></i>
+        <h2>Responsive Design</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ducimus debitis, molestiae quibusdam porro magni fugit, dicta officia sequi temporibus, cupiditate tempore ut deserunt ullam voluptatibus vitae praesentium! Ducimus molestias rem, enim necessitatibus dicta vitae cupiditate aliquam harum saepe voluptate quo, vel error amet minima.</p>
+
+        <a href="#">learn more</a>
+    </div>
+
+    <div>
+        <i class="fa fa-street-view" aria-hidden="true"></i>
+        <h2>UI Devloper</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ducimus debitis, molestiae quibusdam porro magni fugit, dicta officia sequi temporibus, cupiditate tempore ut deserunt ullam voluptatibus vitae praesentium! Ducimus molestias rem, enim necessitatibus dicta vitae cupiditate aliquam harum saepe voluptate quo, vel error amet minima.</p>
+
+        <a href="#">learn more</a>
+    </div>
+</div> 
+</div>
+</div>
+<!----Services section started-->
+
+<!----Portfilo section started-->
+<div class="portfolio">
+<div class="container">
+    <h1 class="sub-title">My Work</h1>
+
+    <div class="work-list">
+        <div class="work">
+            <img src="https://media.istockphoto.com/photos/man-holding-smart-phone-with-blurred-background-picture-id692682044?b=1&k=20&m=692682044&s=170667a&w=0&h=00pzbMGVf5An8hfeDdOf8f9BNKxhFsrKk1GNAFbY-20=" alt="">
+
+            <div class="layer">
+                <h3>Social Media App</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea obcaecati, quidem maiores culpa labore ipsum deleniti et sed! Expedita temporibus obcaecati quae quas.</p>
+                <a href="#"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+            </div>
+        </div>
+
+        <div class="work">
+            <img src="https://media.istockphoto.com/photos/man-hand-holding-phone-with-app-messenger-on-the-screen-picture-id1057168562?k=20&m=1057168562&s=170667a&w=0&h=WC7GAt6_WPVALBLRNvWtMjUY3nkEk10cO-nyIusBSpU=" alt="">
+
+            <div class="layer">
+                <h3>Music App</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea obcaecati, quidem maiores culpa labore ipsum deleniti et sed! Expedita temporibus obcaecati quae quas.</p>
+                <a href="#"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+            </div>
+        </div>
+
+        <div class="work">
+            <img src="https://media.istockphoto.com/photos/unrecognizable-man-uses-banking-app-picture-id1354411899?b=1&k=20&m=1354411899&s=170667a&w=0&h=jQsNzUDFdxp7dnVFwO3Y5et_I9Itp7A9OppRlQ4xv3g=" alt="">
+
+            <div class="layer">
+                <h3>Online Shopping</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea obcaecati, quidem maiores culpa labore ipsum deleniti et sed! Expedita temporibus obcaecati quae quas.</p>
+                <a href="#"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="btn">see more</a>
+</div>
+</div>
+
+<!----Portfilo section started-->
+
+<!---Contact section started-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                 <p> <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                    shubhamtiwari8047@gmail.com</p>
+                 <p> <i class="fa fa-phone" aria-hidden="true"></i>
+                    6377753007</p>
+                 <div class="social-icons">
+                    <a href=""><i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+
+                    <a href=""><i class="fa fa-instagram" aria-hidden="true"></i>
+                    </a>
+
+                    <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </a>
+
+                    <a href=""><i class="fa fa-medium" aria-hidden="true"></i>
+                    </a>
+
+                    <a href=""><i class="fa fa-dribbble" aria-hidden="true"></i>
+                    </a>
+                 </div>
+                 <a href="https://www.satyam-tiwari.com/"  class="btn btn2">View the website</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+
+                <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright @shubham <i class="fa fa-heart" aria-hidden="true"></i>
+            .Made by Me.</p>
+    </div>
+</div>
+
+
+<!----Contact section started-->
+
+<!-----Javascript section started-->
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents  =document.getElementsByClassName("tab-contents");
+
+
+//function
+
+
+function opentab(tabname){
+
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+
+    event.currentTarget.classList.add("active-link");
+
+    document.getElementById(tabname).classList.add("active-tab")
+}
+</script>
+
+
+
+<script>
+    var sidemenu = document.getElementById('sidemenu');
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+
+    }
+
+
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+
+    }
+
+</script>
+<!-----Javascript section started-->
+</body>
+</html>
